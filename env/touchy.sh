@@ -8,12 +8,15 @@
 # Bash script for setting up touchpad/trackpoint for BSPWM
 
 
-# MACBOOK PRO
+#===[ MACBOOK PRO ]===#
 
 # TOUCHPAD
 xinput set-prop bcm5974 libinput\ Tapping\ Enabled 1
 xinput set-prop bcm5974 libinput\ Natural\ Scrolling\ Enabled 1
 xinput set-prop bcm5974 libinput\ Accel\ Speed 0.5
+
+
+#===[ THINKPAD X220 ]===#
 
 # TRACKPAD ON/OFF (0=off/1=on)
 # xinput set-prop SynPS/2\ Synaptics\ TouchPad "Device Enabled" 0
