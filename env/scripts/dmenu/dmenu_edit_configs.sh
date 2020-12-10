@@ -10,6 +10,7 @@ sxhkd
 polybar
 picom
 nvim
+spectrwm
 zshrc
 zsh_aliases
 zsh_env
@@ -17,7 +18,7 @@ quit")
 
 
 choice=$(echo -e "${options[0]}" | dmenu -fn 'Hack Nerd Font -10' -nb "$color0" -nf \
-    "$color15" -sb "$color3" -sf "$color0" -nhb "$color3" -nhf "$color0" -shb "$color3" -shf "$color15" -h 30 -l 12 -g 1 -p 'Edit config > ')
+    "$color15" -sb "$color3" -sf "$color0" -nhb "$color3" -nhf "$color0" -shb "$color3" -shf "$color15" -h 10 -l 12 -g 1 -p 'Edit config > ')
 
 
 case "$choice" in 
@@ -51,6 +52,10 @@ case "$choice" in
     ;;
     zsh_env)
         choice="$HOME/.zshenv"
+    ;;
+
+    spectrwm)
+        choice="$HOME/.config/spectrwm/spectrwm.conf"
     ;;
     *)
         exit 1
