@@ -15,6 +15,13 @@ sxhkd &
 # SETUP TOUCHPAD
 /home/r3dux/bin/env/touchy.sh
 
+if pgrep -x touchegg; then
+    killall -q touchegg
+    touchegg &
+else
+    touchegg &
+fi
+
 # DPI SCALING, KEY REPEAT, KEYSWAP...
 #/home/r3dux/bin/env/display_settings/dual_displays.sh
 #/home/r3dux/set_monitors.sh
