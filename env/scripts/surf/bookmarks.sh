@@ -64,5 +64,5 @@ case $choice in
     ;;
 
 esac
-bspc desktop -f '^2' && chromium $choice
+$BROWSER $choice
 
