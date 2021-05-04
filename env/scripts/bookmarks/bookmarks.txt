@@ -29,3 +29,4 @@ https://app.darqube.com/overview
 https://www.gate.io/en/
 https://www.bitmart.com/markets/en
 https://kucoin.com
+https://glassnode.com
