@@ -29,4 +29,9 @@ https://app.darqube.com/overview
 https://www.gate.io/en/
 https://www.bitmart.com/markets/en
 https://kucoin.com
-https://glassnode.com
+https://bitinfocharts.com
+https://coinmarketcap.com
+https://kraken.com
+https://solanabeahc.io
+https://mempool.space
+https://studio.glassnode.com/
