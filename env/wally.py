@@ -18,7 +18,8 @@ def setwall():
         quit()
     else:
         os.system('nitrogen --save --set-zoom-fill ' + pic)
-        os.system('wal --saturate 0.3 -i ' + pic)
+        os.system('wal -i ' + pic)
+        # os.system('wal --saturate 0.3 -i ' + pic)
         # os.system('if pgrep -x firefox; then pywalfox update; fi')
         os.system('if pgrep -x bspwm; then bspc wm -r; fi')
         # os.system('if ! pgrep -x picom; then picom; fi')
