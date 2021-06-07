@@ -45,3 +45,4 @@ https://quantifycrypto.com/screener
 https://coin360.com
 https://orionprotocol.io
 https://cryptopanic.com
+https://pro.coinbase.com/
