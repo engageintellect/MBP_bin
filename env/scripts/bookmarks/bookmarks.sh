@@ -4,6 +4,8 @@
 # DEFINE SOME VARIABLES FOR PROGRAM
 BOOOKMARK_FILE=~/bin/env/scripts/bookmarks/bookmarks.txt
 
+BROWSER='brave'
+
 
 bookmarks=$(cat $BOOOKMARK_FILE)
 
