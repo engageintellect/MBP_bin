@@ -3,9 +3,8 @@
 
 clear_screen()
 {
-    clear && figlet "XMRIG"
+    clear && figlet "SCREEN RECORD"
 }
-
 
 
 record_screen()
