@@ -6,13 +6,11 @@ clear_screen()
     clear && figlet "SCREEN RECORD"
 }
 
-
 record_screen()
 {
     res=$(xrandr | grep connected | grep primary | awk '{print $4}' | sed "s/+0+0//g")
     echo -n "ENTER FILE NAME: "
     read filename
-
     if [[ $filename == "q" ]]; then
         clear && exit
     else
@@ -23,6 +21,9 @@ record_screen()
     fi
 }
 
-
-clear_screen
-record_screen
+main()
+{
+    clear_screen
+    record_screen
+}
+main
