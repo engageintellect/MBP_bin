@@ -6,14 +6,14 @@
 #    |  __/ | | \ V /\__ \ | | |
 #     \___|_| |_|\_(_)___/_| |_|
 #    
-#    BUILD: ThinkPad X220
-#    VERSION: 2.0
+#    BUILD: MacBook Pro
+#    VERSION: 2.5
 
 # SXHKD
 sxhkd &
 
 # SETUP TOUCHPAD
-/home/r3dux/bin/env/touchy.sh
+$HOME/bin/env/touchy.sh
 
 if pgrep -x touchegg; then
     killall -q touchegg
@@ -36,7 +36,7 @@ xset r rate 275 200
 wal -R
 
 # COMPILE ST
-python /home/r3dux/bin/env/pywal/st_pywal.py
+python $HOME/bin/env/pywal/st_pywal.py
 
 # PROGRAMS
 clipmenud &
@@ -54,4 +54,4 @@ while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
 picom --experimental-backends &
 
 # ADJUST PADDING
-/home/r3dux/bin/env/padding.sh
+$HOME/bin/env/padding.sh
