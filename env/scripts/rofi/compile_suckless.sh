@@ -19,8 +19,9 @@ quit")
 #     "$color15" -sb "$color3" -sf "$color0" -nhb "$color3" -nhf "$color0" -shb "$color3" -shf "$color15" -h 15 -p 'Compiple: ')
 
 # ROFI
-choice=$( echo -e "${options[0]}" | rofi -dmenu -p "EDIT CONFIG" \
-    -font "Hack Nerd Font 10" -location 1 -width 20 -lines 100)
+choice=$( echo -e "${options[0]}" | rofi -dmenu -p "COMPILE" \
+    -font "Hack Nerd Font 12" -location 1 -width 20 -lines 100 \
+    -theme-str '#window { width:20%; height:100%; }')
 
 case "$choice" in
     quit)
