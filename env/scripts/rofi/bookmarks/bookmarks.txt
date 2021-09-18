@@ -50,3 +50,5 @@ https://dextools.io/app
 https://htmlcheatsheet.com
 https://www.codeply.com/
 https://dev.azure.com/jc9361/
+https://archive.org
+https://tade.mango.markets/
