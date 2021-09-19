@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-scrot -z
-mpv ~/sounds/iphone_camera.mp3
+scrot -s -f
+# mpv ~/sounds/iphone_camera.mp3
 
 
 
