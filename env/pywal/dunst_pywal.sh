@@ -8,7 +8,7 @@
  reload_dunst() {
     pkill dunst
     dunst -conf ~/.config/dunst/dunstrc \
-	-frame_width 2 \
+	-frame_width 2\
         -lb "${color0}" \
         -nb "${color0}" \
         -cb "${color0}" \
