@@ -23,6 +23,7 @@ main()
     echo "Adding $site to $FILE"
     echo $site >> $FILE
     sleep 1
+    echo "Adding $site to $FILE"
     echo "$site added to $FILE"
     sleep 1
     display
