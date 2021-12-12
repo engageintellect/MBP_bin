@@ -24,7 +24,6 @@ quit")
 
 # ROFI
 choice=$(echo -e "${options[0]}" | rofi -dmenu -p "EDIT CONFIG" \
-    -theme ~/.cache/wal/colors-rofi-dark.rasi \
     -font "Hack Nerd Font 10" -location 1 -width 20 -lines 100 \
     -theme-str '#window { width:20%; height:100%; }' )
 

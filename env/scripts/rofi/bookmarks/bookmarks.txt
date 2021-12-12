@@ -9,7 +9,6 @@ https://youtube.com
 https://pythoncheatsheet.org
 https://weechat.org/doc/stable/quickstart
 https://banggood.com
-https://www.livecoinwatch.com/
 https://coinstats.app/
 https://robinhood.com/
 https://stocktwits.com/
@@ -79,3 +78,7 @@ airdrops.steakwallet.fi
 https://snowtrace.io
 https://spookyswap.finance/
 https://defillama.com/
+https://explorer.solana.com/address/8bUcWbhZEsUBjStfMzrKeUbYZ9LKufuFeMxg9EfyLzAZ/tokens
+https://app.spartacus.finance/#/stake
+https://www.theblockcrypto.com/
+https://www.livecoinwatch.com/portfolio

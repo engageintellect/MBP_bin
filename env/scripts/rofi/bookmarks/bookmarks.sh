@@ -10,7 +10,7 @@ BROWSER='brave'
 bookmarks=$(cat $BOOOKMARK_FILE | sort)
 
 read selection <<< $(for x in $bookmarks; do echo $x; done |  \
-    rofi -dmenu -theme ~/.cache/wal/colors-rofi-dark.rasi -p "BOOKMARKS" -font "Hack Nerd Font 10" -location 3 -width 20 -lines 100 \
+    rofi -dmenu -p "BOOKMARKS" -font "Hack Nerd Font 10" -location 3 -width 20 -lines 100 \
     -theme-str '#window { width:20%; height:100%; }')
 
 
