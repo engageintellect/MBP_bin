@@ -82,3 +82,6 @@ https://explorer.solana.com/address/8bUcWbhZEsUBjStfMzrKeUbYZ9LKufuFeMxg9EfyLzAZ
 https://app.spartacus.finance/#/stake
 https://www.theblockcrypto.com/
 https://www.livecoinwatch.com/portfolio
+https://solscan.io
+https://overapi.com/
+https://dexscreener.com
